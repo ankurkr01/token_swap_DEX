@@ -1,7 +1,18 @@
 import React from "react";
 
-const index = () => {
-  return <div>index</div>;
-};
+// internal import 
+import {Footer, HeroSection, Header, Card} from "../components/index"
 
-export default index;
+const home = ()=>{
+  return(
+    <div className="bg-[#1A1A1A]">
+      <Header/>
+      <HeroSection/>
+      <Card/>
+      <Footer/> 
+
+    </div>
+  )
+}
+
+export default home;
